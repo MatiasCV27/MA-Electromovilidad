@@ -1,0 +1,59 @@
+main {
+    padding: 0;
+}
+.ptitulo {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1em;
+    padding: .78em 0;
+}
+.edubanner {
+    background-image: url(../img/educacion/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: calc(100vh - 80px);
+    max-width: 100%;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    left: auto;
+    right: auto;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0rem;
+}
+.h4text {
+    width: 60%;
+    margin: auto;
+}
+.paddcard {
+    padding: 1.5em;
+    overflow: hidden;
+}
+.paddcard p {
+    margin: 0;
+}
+.beneficiosimg {
+    width: 100%;
+    min-width: 100%;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: .5em;
+}
+@media screen and (max-width: 760px){
+    .contenedor {
+        width: 100%;
+    }
+    .h4text {
+        width: 100%;
+    }
+    .h2text {
+        width: 80%;
+        margin: auto;
+    }
+}
