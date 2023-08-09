@@ -1,3 +1,4 @@
+/*! Formulario */
 .form-container {
     display: flex;
     justify-content: center;
@@ -40,4 +41,44 @@ body::before {
         padding-left: 30px;
         padding-right: 30px;
     }
+}
+/*! Preguntas  */
+.custom-bg-color1 {
+    background-color: #56A273;
+}
+.custom-bg-color2 {
+    background-color: #2F4858;
+}
+.custom-bg-color3 {
+    background-color: #49817B;
+}
+*{
+    font-family: 'Lucida Sans';
+}
+.custom-bg-color4 {
+    background-color: #56A273;
+}
+.custom-bg-color5 {
+    background-color: #2F4858;
+}
+.custom-bg-color6 {
+    background-color: #49817B;
+}
+.accordion-button.collapsed.custom-bg-color1.text-white {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color2.text-white {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color3.text-white {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color4.text-white {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color5.text-white {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color6.text-white {
+    font-weight: bold;
 }
