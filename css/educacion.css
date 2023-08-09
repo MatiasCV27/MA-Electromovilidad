@@ -1,11 +1,15 @@
 /*! Index */
+/*Todos Card Partes */
 .cardPartes {
     --bg: #FDFDFD;
     --contrast: #e2e0e0;
     position: relative;
     padding: 9px;
     background-color: var(--bg);
-    border-radius: 2em;
+    border-radius: 1.5em;
+    margin-bottom: 1.5em;
+    width: 90%;
+    margin-left: 5%;
 }
 .card-overlay {
     position: absolute;
@@ -16,16 +20,29 @@
 .card-inner {
     overflow: hidden;
     width: 100%;
-    height: 260px;
+    height: 275px;
     background-color: var(--contrast);
-    border-radius: 2em;
+    border-radius: 1.5em;
     /* Content style */
     font-size: 1em;
     color: #212529;
     text-align: center;
 }
+.card-inner p {
+    margin: 0 .75rem;
+    text-align: justify;
+}
 .card-inner hr {
     margin: .75rem;
+}
+/*Todos Parallax */
+.imgMid {
+    background-image: url(../img/index/imgparallax.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 250px;
 }
 /*! Educación */
 main {
