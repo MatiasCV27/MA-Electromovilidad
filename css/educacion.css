@@ -17,7 +17,7 @@
     pointer-events: none;
     filter: opacity(10%) contrast(105%);
 }
-.card-inner {
+.card-innerIndex {
     overflow: hidden;
     width: 100%;
     height: 275px;
@@ -28,16 +28,24 @@
     color: #212529;
     text-align: center;
 }
-.card-inner p {
+.card-innerIndex p {
     margin: 0 .75rem;
     text-align: justify;
 }
-.card-inner hr {
+.card-innerIndex hr {
     margin: .75rem;
 }
 /*Todos Parallax */
 .imgMid {
     background-image: url(../img/index/imgparallax.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 250px;
+}
+.imgMid2 {
+    background-image: url(../img/index/imgparallax2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
