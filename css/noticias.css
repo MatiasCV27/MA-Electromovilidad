@@ -2,7 +2,7 @@
 .cardNewsP {
     width: 100%;
     height: 520px;
-    background: rgb(236, 236, 236);
+    background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     overflow-y: auto;
     margin-bottom: 2em;
@@ -11,15 +11,18 @@
 }
 .cardNewsTitle {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.1em;
     margin-bottom: 0;
+    padding: .5em 0;
 }
 .imgNewsP {
-    width: 70%;
-    margin: 1em 15%;
+    height: 175px;
+    max-width: 100%;
     border-radius: 1em;
     border: 2px solid black;
 }
 .descNewsP {
+    padding-bottom: .5em;
+    margin: 0;
     text-align: justify;
 }
