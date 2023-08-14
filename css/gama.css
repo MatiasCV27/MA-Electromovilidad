@@ -1,6 +1,6 @@
 .TGama {
     text-align: center;
-    margin-top: .9em;
+    padding-top: calc(80px + .75em);
     margin-bottom: .75em;
 }
 .imgModelos {
