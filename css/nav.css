@@ -124,8 +124,8 @@ a.selected{
 }
 /* Logo */
 .imglogo {
-    max-width: 125px;
-    margin-left: 200px;
+    max-width: 60px;
+    margin-left: 125px;
 }
 /*Clases para usar en JavaScript*/
 .body_move{
