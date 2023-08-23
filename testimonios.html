@@ -79,126 +79,240 @@
     <!--TODOS Contenido  -->
     <!-- Testimonios -->
     <section id="testimonios" class="testimonios seccion-clara" style="padding-top: calc(80px + 1.5em);">
-        <h2 class="text-center"><strong><u>Testimonios</u></strong></h2>
-        <br>
-      <h3 class="text-center">Estos son algunos testimonios de nuestros clientes...</h3>
+      <h2 class="text-center"><strong><u>Testimonios</u></strong></h2>
       <br>
-      <!-- Carrusel -->
-      <div id="testimonios-carrusel" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
-        <div class="card">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container" >
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil1.jpeg" alt="Foto de Gino">
-              <p class="testimonio-texto text-white">"Los autos eléctricos transformaron nuestra flota. Menor costo operativo, cero emisiones y una inversión que rinde a largo plazo. ¡Altamente recomendado!".</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Carlos M.</p>
-                <p class="cargo">CEO de EcoTransporte</p>
+      <h3 class="text-center">Estos son algunos testimonios de nuestros clientes y colaboradores ...</h3>
+      <br>
+      
+      <div class="container">
+          <div class="row">
+          
+              <!-- Primer carrusel -->
+              <div class="col-md-4">
+                  <!-- Código del carrusel -->
+                  <div id="testimonios-carrusel1" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
+                    <div class="card bg-dark">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="container" >
+                            <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil1.jpeg" alt="Foto de Gino">
+                            <p class="testimonio-texto text-white">"Los autos eléctricos transformaron nuestra flota. Menor costo operativo, cero emisiones y una inversión que rinde a largo plazo. ¡Altamente recomendado!".</p>
+                            <div class="testimonio-info">
+                              <p class="cliente text-white">Carlos M.</p>
+                              <p class="cargo">CEO de EcoTransporte</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil2.jpeg" alt="Foto de Nora">
+                            <p class="testimonio-texto text-white">"Apoyamos la inversión en autos eléctricos con energía 100% renovable. Juntos avanzamos hacia un ecosistema de movilidad sostenible y reducimos nuestra huella de carbono".</p>
+                            <div class="testimonio-info">
+                              <p class="cliente text-white">Roberto P.</p>
+                              <p class="cargo">RenewEnergía Distribución.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil3.jpeg" alt="Foto de Leonardo">
+                            <p class="testimonio-texto text-white">"Como líderes en la industria, creemos en impulsar la movilidad sostenible. Nuestros autos eléctricos son la inversión del futuro para un mundo más limpio y eficiente"   .</p>
+                            <div class="testimonio-info">
+                              <p class="cliente text-white">Josefina H.</p>
+                              <p class="cargo">CEO Electra Motors</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil4.jpeg" alt="Foto de Leonardo">
+                            <p class="testimonio-texto text-white">"La transición a flotas de autos eléctricos transformó nuestro negocio. Redujimos costos operativos y reafirmamos nuestro compromiso con la sostenibilidad. Una inversión inteligente para un futuro más limpio."</p>
+                            <div class="testimonio-info">
+                              <p class="cliente text-white">Luis G.</p>
+                              <p class="cargo">Director General de Movilidad Verde S.A.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil5.jpeg" alt="Foto de Leonardo">
+                            <p class="testimonio-texto text-white">"Los autos eléctricos revolucionaron nuestra logística. Mayor eficiencia, menor impacto ambiental y una ventaja competitiva notable. Invertir en autos eléctricos fue un paso estratégico para el crecimiento sostenible."</p>
+                            <div class="testimonio-info">
+                              <p class="cliente text-white">Marta R.</p>
+                              <p class="cargo">Gerente de Logística en ECOmotor Logística Global.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+                    </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil2.jpeg" alt="Foto de Nora">
-              <p class="testimonio-texto text-white">"Apoyamos la inversión en autos eléctricos con energía 100% renovable. Juntos avanzamos hacia un ecosistema de movilidad sostenible y reducimos nuestra huella de carbono".</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Roberto P.</p>
-                <p class="cargo">RenewEnergía Distribución.</p>
+              
+              <!-- Segundo carrusel -->
+              <div class="col-md-4">
+                  <!-- Código del carrusel (Asegúrate de cambiar el ID para que sea único) -->
+                  <div id="testimonios-carrusel2" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
+                      <div class="card bg-dark">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="container" >
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2021/10/Luis-Piedra_Innova-web-370x340.jpg" alt="Foto de Gino">
+                              <p class="testimonio-texto text-white">"Silencioso, eficiente y ecológico. No hay vuelta atrás para mí.".</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Carlos M.</p>
+                                <p class="cargo">CEO de Rotoplas</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2022/09/Diego-de-Llaca-LR-370x340.jpg" alt="Foto de Nora">
+                              <p class="testimonio-texto text-white">"Apoyamos la inversión en autos eléctricos con energía 100% renovable. Juntos avanzamos hacia un ecosistema de movilidad sostenible y reducimos nuestra huella de carbono".</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Roberto P.</p>
+                                <p class="cargo">Altamira Gerente.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2023/03/Luca-Ayres_Innova-web-370x340.jpgw3_-370x340.png" alt="Foto de Leonardo">
+                              <p class="testimonio-texto text-white">"Como líderes en la industria, creemos en impulsar la movilidad sostenible. Nuestros autos eléctricos son la inversión del futuro para un mundo más limpio y eficiente"   .</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Josefina H.</p>
+                                <p class="cargo">CEO Electra Motors</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2023/03/Beatriz-Ayres_Innova-web-370x340.jpgw3_-370x340.jpg" alt="Foto de Leonardo">
+                              <p class="testimonio-texto text-white">"La transición a flotas de autos eléctricos transformó nuestro negocio. Redujimos costos operativos y reafirmamos nuestro compromiso con la sostenibilidad. Una inversión inteligente para un futuro más limpio."</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Luis G.</p>
+                                <p class="cargo">Director General de Movilidad Verde S.A.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2022/12/Rodrigo-de-Burgos-e1670537794817-370x340.png" alt="Foto de Leonardo">
+                              <p class="testimonio-texto text-white">"Los autos eléctricos revolucionaron nuestra logística. Mayor eficiencia, menor impacto ambiental y una ventaja competitiva notable. Invertir en autos eléctricos fue un paso estratégico para el crecimiento sostenible."</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Marta R.</p>
+                                <p class="cargo">Gerente de Logística en ECOmotor Logística Global.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Trabajadores-->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Siguiente</span>
+                        </button>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil3.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Como líderes en la industria, creemos en impulsar la movilidad sostenible. Nuestros autos eléctricos son la inversión del futuro para un mundo más limpio y eficiente"   .</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Josefina H.</p>
-                <p class="cargo">CEO Electra Motors</p>
+              
+              <!-- Tercer carrusel -->
+              <div class="col-md-4">
+                  <!-- Código del carrusel (Asegúrate de cambiar el ID para que sea único) -->
+                  <div id="testimonios-carrusel3" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
+                      <div class="card bg-dark">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="container" >
+                              <img class="testimonio-imagen rounded-circle" src="https://innova-ms.com/wp-content/uploads/2023/02/Ariel_Innova-web-370x340.jpgw3_-370x340.png" alt="Foto de Gino">
+                              <p class="testimonio-texto text-white">""Desde que cambié a eléctrico, nunca más volví a una gasolinera. ¡El futuro es ahora!".</p>
+                              <div class="testimonio-info">
+                                <p class="cliente text-white">Enrique M.</p>
+                                <p class="cargo">Colaborador</p>
+                              </div>
+                            </div>
+                          </div>
+                         
+                          <!--Trabajadores-->
+                          <div class="carousel-item">
+                            <div class="container">
+                                <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil6.jpeg" alt="Foto de Maria">
+                                <p class="testimonio-texto text-white">"La iniciativa de coches eléctricos en Lima ha sido revolucionaria. Estamos haciendo historia y cuidando de nuestro planeta al mismo tiempo."</p>
+                                <div class="testimonio-info">
+                                    <p class="cliente text-white">Maria R.</p>
+                                    <p class="cargo">Colaborador</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil7.jpeg" alt="Foto de Javier">
+                                <p class="testimonio-texto text-white">"La transformación que estamos logrando con los coches eléctricos en Lima es asombrosa. Estoy emocionado por lo que el futuro nos depara."</p>
+                                <div class="testimonio-info">
+                                    <p class="cliente text-white">Javier L.</p>
+                                    <p class="cargo">Colaborador</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil8.jpeg" alt="Foto de Valeria">
+                                <p class="testimonio-texto text-white">"Ser parte de este cambio con los coches eléctricos es increíble. Lima está en camino de ser una referencia mundial en sostenibilidad."</p>
+                                <div class="testimonio-info">
+                                    <p class="cliente text-white">Valeria P.</p>
+                                    <p class="cargo">Colaborador</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil9.jpeg" alt="Foto de Roberto">
+                                <p class="testimonio-texto text-white">"Nuestra contribución a la movilidad sostenible en Lima será recordada por generaciones. Estoy orgulloso de ser parte de esto."</p>
+                                <div class="testimonio-info">
+                                    <p class="cliente text-white">Roberto H.</p>
+                                    <p class="cargo">Colaborador</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil10.jpeg" alt="Foto de Carolina">
+                                <p class="testimonio-texto text-white">"Los coches eléctricos no son solo una tendencia, son el futuro. En Lima, estamos liderando el camino."</p>
+                                <div class="testimonio-info">
+                                    <p class="cliente text-white">Carolina S.</p>
+                                    <p class="cargo">Colaborador</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Siguiente</span>
+                        </button>
+                      </div>
+                  </div>
               </div>
-            </div>
+          
           </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil4.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"La transición a flotas de autos eléctricos transformó nuestro negocio. Redujimos costos operativos y reafirmamos nuestro compromiso con la sostenibilidad. Una inversión inteligente para un futuro más limpio."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Luis G.</p>
-                <p class="cargo">Director General de Movilidad Verde S.A.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil5.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Los autos eléctricos revolucionaron nuestra logística. Mayor eficiencia, menor impacto ambiental y una ventaja competitiva notable. Invertir en autos eléctricos fue un paso estratégico para el crecimiento sostenible."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Marta R.</p>
-                <p class="cargo">Gerente de Logística en ECOmotor Logística Global.</p>
-              </div>
-            </div>
-          </div>
-          <!--Trabajadores-->
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil6.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Ser parte de este proyecto de autos eléctricos en Lima es emocionante. Estamos creando un impacto real en la movilidad y el medio ambiente de nuestra ciudad."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Angela v.</p>
-                <p class="cargo">Colaborador</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil7.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Trabajar en la vanguardia de la tecnología de autos eléctricos en Lima es una experiencia enriquecedora. Estamos allanando el camino hacia una ciudad más sostenible."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Alex T.</p>
-                <p class="cargo">Colaborador</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil8.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Cada día en este proyecto de autos eléctricos en Lima es un paso hacia adelante en la innovación. Estamos construyendo un futuro de movilidad más limpio y eficiente."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Nicole F.</p>
-                <p class="cargo">Colaborador</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil9.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Contribuir a la adopción de autos eléctricos en Lima es gratificante. Estamos cambiando la forma en que las personas se desplazan y dejando un legado positivo."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Susan B.</p>
-                <p class="cargo">Colaborador</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <img class="testimonio-imagen rounded-circle" src="img/testimonios/perfil10.jpeg" alt="Foto de Leonardo">
-              <p class="testimonio-texto text-white">"Formar parte del equipo de autos eléctricos en Lima me llena de orgullo. Estamos demostrando que la inversión en tecnología sostenible es clave para el progreso de la ciudad."</p>
-              <div class="testimonio-info">
-                <p class="cliente text-white">Mateo G.</p>
-                <p class="cargo">Colaborador</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
       </div>
-    </section>
+  </section>
+  
     <!--TODOS Footer  -->
     <footer>
         <div class="container py-2">

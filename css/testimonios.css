@@ -43,13 +43,3 @@
     font-size: 0.9rem;
     color: #656060;
 }
-  /* Estilos para los cards dentro del carrusel */
-.card {
-    background: #212529;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
-    margin-left: 10px; /* Agrega un margen a la izquierda del card */
-    margin-right: 10px; /* Agrega un margen a la derecha del card */
-    /* Añade otros estilos personalizados según tus necesidades */
-}
