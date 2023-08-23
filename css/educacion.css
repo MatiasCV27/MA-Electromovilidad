@@ -87,18 +87,22 @@ main {
     margin: auto;
 }
 .paddcard {
-    padding: 1.5em;
+    margin: 1.5em;
     overflow: hidden;
+    border: 1px solid white;
+    border-radius: .5em;
+    width: 350px;
 }
 .paddcard p {
-    margin: 0;
+    padding-bottom: .5em;
+    width: 90%;
+    margin-left: 5%;
 }
 .beneficiosimg {
     width: 100%;
     min-width: 100%;
     height: 250px;
-    border: 2px solid white;
-    border-radius: .5em;
+    border-bottom: 2px solid white;
 }
 @media screen and (max-width: 760px){
     .contenedor {
