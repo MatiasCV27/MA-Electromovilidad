@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lima Electromovilidad</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/educacion.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/Car_Favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
+
 <body id="body">
     <header style="position: fixed;">
         <div class="icon__menu">
@@ -25,7 +28,7 @@
             <i class="fa-solid fa-car"></i>
             <h4 class="titleh4">Electromovilidad</h4>
         </div>
-        <div class="options__menu">	
+        <div class="options__menu">
             <a href="index.html" class="selected a-style">
                 <div class="option">
                     <i class="fas fa-home" title="Inicio"></i>
@@ -76,20 +79,24 @@
             </a>
         </div>
     </div>
-    <div class="bg-light py-5 text-center form-container" id="contactos" >
-        <div class="container contact-container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 contenido">
-                    <h3 class="text-center">Contáctanos</h3>
-                    <p class="text-justify">Tus comentarios son importantes para nosotros. Si tienes alguna pregunta, sugerencia o simplemente deseas ponerte en contacto, por favor completa el siguiente formulario.</p>
-                    <form action="enviar.php">
+
+    <!-- Modificación -->
+    <div class="bg-light text-center form-container" id="contactos">
+        <div class="container">
+            <div class="row">
+                <div class="contenido col-lg-7">
+                    <h3 class="text-center"><strong>Contáctanos</strong></h3>
+                    <p class="text-justify">Tus comentarios son importantes para nosotros. Si tienes alguna pregunta,
+                        sugerencia o simplemente deseas ponerte en contacto, por favor completa el siguiente formulario.
+                    </p>
+                    <form action="enviardatos.php">
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
                                 <div class="fas fa-user input-group-text">
                                 </div>
                             </div>
                             <input type="text" class="form-control" id="inlineFormInputGroup"
-                                placeholder="Apellidos y Nombres">
+                                placeholder="Apellidos y Nombres" name="nombreCompleto">
                         </div>
 
                         <div class="input-group mb-2">
@@ -98,7 +105,7 @@
                                 </div>
                             </div>
                             <input type="email" class="form-control" id="inlineFormInputGroup2"
-                                placeholder="Correo Electronico">
+                                placeholder="Correo Electrónico" name="email">
                         </div>
 
                         <div class="input-group mb-2">
@@ -106,39 +113,49 @@
                                 <div class="fas fa-pencil-alt input-group-text">
                                 </div>
                             </div>
-                            <textarea name="" class="form-control" id="" cols="30" rows="10"
-                                placeholder="Dejanos aqui tu Mensaje"></textarea>
+                            <textarea class="form-control" id="" cols="30" rows="10"
+                                placeholder="Dejanos Aquí tu Mensaje" name="mensaje"></textarea>
                         </div>
-
+                        
                         <div class="form-group form-checkbox">
                             <input type="checkbox" id="politicas_privacidad" name="politicas_privacidad" value="SI">
-                            <label for="politicas_privacidad">Acepto haber leído las <a
+                            <label for="politicas_privacidad">Acepto haber leído las <a style="color: #0e5680;"
                                     href="#block-politicasdeprivacidadyusodedatos" uk-toggle>políticas de privacidad</a>
-                                y los <a href="#block-terminosycondiciones" uk-toggle>términos y
+                                y los <a style="color:#0e5680 " href="#block-terminosycondiciones" uk-toggle>términos y
                                     condiciones.</a></label>
                         </div>
+
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="btn custom-btn" >
                                 Enviar</button>
                         </div>
                     </form>
                 </div>
+                <div class="col-lg-5">
+                    <img src="/img/formulario/contactos4.jpg" alt="Imagen de contacto" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
+    
     <footer>
         <div class="container py-2">
             <div class="row">
                 <div class="col-lg-6 col-sm-12" style="margin: 1em 0;">
-                    <p style="margin: 0; font-size: 1.25em" class="text-center"><strong>Derechos reservados a &copy; GreenDrive Team 2023</strong></p>
+                    <p style="margin: 0; font-size: 1.25em" class="text-center"><strong>Derechos reservados a &copy;
+                            GreenDrive Team 2023</strong></p>
                 </div>
                 <div class="col-lg-6 col-sm-12" style="margin: 1em 0;">
                     <p style="margin: 0;" class="text-center">
-                        <strong style="font-size: 1.25em">Contactos: 
-                            <a href="https:www.facebook.com" target="_blank" class="footericon"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https:www.youtube.com" target="_blank" class="footericon"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="https:www.twitter.com" target="_blank" class="footericon"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https:www.instragram.com" target="_blank" class="footericon"><i class="fa-brands fa-instagram"></i></a>
+                        <strong style="font-size: 1.25em">Contactos:
+                            <a href="https:www.facebook.com" target="_blank" class="footericon"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https:www.youtube.com" target="_blank" class="footericon"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href="https:www.twitter.com" target="_blank" class="footericon"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https:www.instragram.com" target="_blank" class="footericon"><i
+                                    class="fa-brands fa-instagram"></i></a>
                         </strong>
                     </p>
                 </div>
@@ -147,4 +164,5 @@
     </footer>
     <script src="js/nav.js"></script>
 </body>
+
 </html>
